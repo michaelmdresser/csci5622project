@@ -17,7 +17,7 @@ We did our work using Jupyter Notebooks. This repo includes the following conten
 
 The rest of the notebooks deal with data processing/modifications and actual application and design of the various machine learning algorithms we explored.
 
-#### Garrison's Work 
+### Garrison's Work 
 * Logistic_Regression_BaseDataSet.ipynb contains garrisons work on tuning parameters and studying logisitic regression on the base dataset
 * The other two LogisticRegression_<Dataset> files are carbon copies of Logistic_Regression_BaseDataSet.ipynb but running on the referenced dataset, other than different values of C being chosen in the fine tuning process. 
 * Preprocess-BasicName.ipynb was used to create the basic name dataset. 
