@@ -39,7 +39,10 @@ The rest of the notebooks deal with data processing/modifications and actual app
 ### Michael's Work
 
 ### Curry's Work
-
+* Curry_Adaboost.ipynb - Adaboost Classifier
+* Curry_Random_Forest.ipynb - Random Forest Classifier
+* Curry_Prediction_Comparisons_and_Figures.ipynb - Graphing of results from AdaBoost and Random Forest. Created prediction similarity matrix comparing all models
+* Error Analysis.ipynb Error analysis in collaboration with Garrison
 
 
 
