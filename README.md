@@ -17,7 +17,28 @@ We did our work using Jupyter Notebooks. This repo includes the following conten
 
 The rest of the notebooks deal with data processing/modifications and actual application and design of the various machine learning algorithms we explored.
 
+### Garrison's Work 
+* Logistic_Regression_BaseDataSet.ipynb contains garrisons work on tuning parameters and studying logisitic regression on the base dataset
+* The other two LogisticRegression_<Dataset> files are carbon copies of Logistic_Regression_BaseDataSet.ipynb but running on the referenced dataset, other than different values of C being chosen in the fine tuning process. 
+* Preprocess-BasicName.ipynb was used to create the basic name dataset. 
+* FixHeaderBugPreprocessBasicName.ipynb was used to get rid of an error in [Preprocess-BasicName.ipynb](Preprocess-BasicName.ipynb) that duplicated the header on accident
+* Testing Models On Test Data.ipynb brought in the best models for the Log reg models on each of the #datasets and tests them on the test data.
+* Baseline.ipynb computes both baselines used
+* BasicTitleFeatures.ipynb is old, ignore.
+* datasplit.ipynb splits the datasets into train/validate/test
+* Error Analysis.ipynb explores which data points all of the models incorrectly labeled to try and understand why particular data points are hard to classify
+* G_SVM_NonlinearKernel_BaseDataSet.ipynb contains Garrison's attempts at SVM model parameter #tuning. 
+* Garrison_Project.ipynb is old, ignore.
+* Figures folder contains figures. 
 
+### Erika's Work
+* erika_knn.ipynb - KNN work.
+* erika_svm.ipynb - SVM work
+* preprocess-sentiment.ipynb - Experimenting with sentiment analysis on the name field.
+
+### Michael's Work
+
+### Curry's Work
 
 
 
