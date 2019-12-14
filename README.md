@@ -13,7 +13,8 @@ We did our work using Jupyter Notebooks. This repo includes the following conten
 * [Curry_Figs](Curry_Figs) -- Figures generated for the final report and the poster made by Curry
 * [Figures](Figures) -- Figures generated for the final report and the poster made by Erika, Michael, and Garrison
 * [knn-predictions](knn-predictions), [svm-predictions](svm-predictions), [nn-final-models](nn-final-models) contain the final results for KNN, SVM, and Neural Nets (created by Erika and Michael)
-* preprocess-* notebooks: Notebooks containing methods of preprocessing the data.
+* preprocess-\* notebooks: Notebooks containing methods of preprocessing the data.
+* [data](data) -- all data, from initial splits to preprocessed variants
 
 The rest of the notebooks deal with data processing/modifications and actual application and design of the various machine learning algorithms we explored.
 
@@ -37,6 +38,12 @@ The rest of the notebooks deal with data processing/modifications and actual app
 * preprocess-sentiment.ipynb - Experimenting with sentiment analysis on the name field.
 
 ### Michael's Work
+* half of preprocess-base.ipynb
+* preprocess-doc2vec.ipynb - building of doc2vec features
+* michael_nn.ipynb - notebook for parameter search for final neural net architecture, uses train/validation
+* michael_nn_visualize.ipynb - visualization of neural net parameter search
+* michael_nn_final.ipynb - training and evaluation of the final model, uses train/test
+* graph_final_results.ipynb - build the bar chart seen at the end of the report
 
 ### Curry's Work
 * Curry_Adaboost.ipynb - Adaboost Classifier
